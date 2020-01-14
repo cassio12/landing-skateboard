@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-/* ---------- home ---------- */
+/* -------------------- HOME -------------------- */
 .containerHome {
   width: 100%;
   min-height: auto;
@@ -76,6 +76,9 @@
   width: 15px;
   height: 15px;
 }
+.containerHome-body {
+  background-color: #ffffff;
+}
 .containerHome-sectionHome {
   height: 80vh;
   display: flex;
@@ -100,10 +103,39 @@
   text-align: start;
   font-family: 'Archivo', sans-serif;
 }
-
-
 .sectionHome-title {
   font-size: 18rem;
   margin: 0 0 5rem 0;
   font-family: 'Archivo', sans-serif;
+}
+.containerHome-sectioFirstPlace {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+}
+.sectioFirstPlace-boxDirectionImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.boxDirectionImage-circleYellow {
+  width: 50%;
+  height: 70%;
+  background-color: #fbefa2;
+  border-radius: 50%;
+  margin: 0;
+}
+.boxDirectionImage-boxImage {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+
+
+.sectioFirstPlace-boxInfo {
+  width: 40%;
 }

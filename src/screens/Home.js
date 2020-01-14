@@ -5,6 +5,7 @@ import ImgHome from "../img/chorao.png";
 import ImgInta from "../img/instagram.png";
 import ImgFace from "../img/facebook.png";
 import ImgTwit from "../img/twitter.png";
+import IconArow from "../img/arow.png"
 
 import Text from "../components/Text";
 
@@ -40,7 +41,29 @@ class Home extends React.Component {
                         </div>
                         <h1 className="sectionHome-title">Skater.</h1>
                     </section>
-                    <section className="containerHome-"></section>
+                    <section className="containerHome-sectioFirstPlace">
+                        <div className="sectioFirstPlace-boxDirectionImage">
+                            <div className="boxDirectionImage-circleYellow"></div>
+                            <figure className="boxDirectionImage-boxImage">
+                                <img className="boxImage-img" src={ImgHome}></img>
+                            </figure>
+                        </div>
+                        <div className="sectioFirstPlace-boxInfo">
+                            <div className="">
+                                <p className="">01</p>
+                                <h2 className="">Alexandre Magno</h2>
+                            </div>
+                            <p className="">Alexandre Magno Abrão, 
+                                mais conhecido pelo seu nome artístico Chorão, 
+                                foi um cantor, compositor, skatista, cineasta, 
+                                roteirista e empresário brasileiro.
+                            </p>
+                            <div className="">
+                                <a href="#" className="">Read Full Bio</a>
+                                <img className="" src={IconArow}></img>
+                            </div>
+                        </div>
+                    </section>
                     <section className="containerHome-"></section>
                     <section className="containerHome-"></section>
                 </body>
