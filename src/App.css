@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+/* ---------- home ---------- */
+.containerHome {
+  width: 100%;
+  min-height: auto;
+}
+.containerHome-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 11vh;
+  background-color: #fbefa2;
+}
+.header-navegation {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.navegation-logo {
+  width: 14%;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0;
+  font-family: 'Archivo', sans-serif;
+}
+.navegation-boxList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+}
+.boxList-iten {
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+.header-boxSubscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+}
+.boxText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+}
+.boxText-text {
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin: 0;
+}
+.subscribe-boxItens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  margin: 0;
+}
+.boxItens-iten {
+  width: 15px;
+  height: 15px;
+}
+.containerHome-sectionHome {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #fbefa2;
+}
+.sectionHome-boxApresentação {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10rem;
+}
+.boxApresentação-imgHome {
+  width: 350px;
+}
+.boxApresentação-textHome {
+  width: 18%;
+  height: 12vh;
+  font-size: 1.1rem;
+  margin: 6em 0 0 0;
+  text-align: start;
+  font-family: 'Archivo', sans-serif;
+}
+
+
+.sectionHome-title {
+  font-size: 18rem;
+  margin: 0 0 5rem 0;
+  font-family: 'Archivo', sans-serif;
+}
