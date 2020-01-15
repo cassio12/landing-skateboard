@@ -49,18 +49,18 @@ class Home extends React.Component {
                             </figure>
                         </div>
                         <div className="sectioFirstPlace-boxInfo">
-                            <div className="">
-                                <p className="">01</p>
-                                <h2 className="">Alexandre Magno</h2>
+                            <div className="boxInfo-numberPlacing">
+                                <p className="numberPlacing-numberOne">01</p>
+                                <h2 className="numberPlacing-nameFirstPlacing">Alexandre Magno</h2>
                             </div>
-                            <p className="">Alexandre Magno Abrão, 
+                            <p className="boxInfo-paragrafoInfoFirstPlacing">Alexandre Magno Abrão, 
                                 mais conhecido pelo seu nome artístico Chorão, 
                                 foi um cantor, compositor, skatista, cineasta, 
                                 roteirista e empresário brasileiro.
                             </p>
-                            <div className="">
-                                <a href="#" className="">Read Full Bio</a>
-                                <img className="" src={IconArow}></img>
+                            <div className="boxInfo-boxLinkBio">
+                                <a href="#" className="boxLinkBio-Txt">Read Full Bio</a>
+                                <img className="boxLinkBio-imgArow" src={IconArow}></img>
                             </div>
                         </div>
                     </section>

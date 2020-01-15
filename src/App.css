@@ -119,10 +119,11 @@
   justify-content: center;
   align-items: center;
   width: 60%;
+  height: 100%;
 }
 .boxDirectionImage-circleYellow {
-  width: 50%;
-  height: 70%;
+  width: 47%;
+  height: 62%;
   background-color: #fbefa2;
   border-radius: 50%;
   margin: 0;
@@ -138,4 +139,36 @@
 
 .sectioFirstPlace-boxInfo {
   width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.boxInfo-numberPlacing {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.numberPlacing-numberOne {
+  width: 40%;
+  height: 100%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbefa2;
+  margin: 0;
+  font-family: 'Archivo', sans-serif;
+}
+.numberPlacing-nameFirstPlacing {
+  font-size: 2rem;
+  text-align: start;
+  padding-left: 2rem;
+  margin: 0;
+}
+.boxLinkBio-imgArow {
+  width: 10px;
+  height: 10px;
 }
