@@ -53,18 +53,37 @@ class Home extends React.Component {
                                 <p className="numberPlacing-numberOne">01</p>
                                 <h2 className="numberPlacing-nameFirstPlacing">Alexandre Magno</h2>
                             </div>
-                            <p className="boxInfo-paragrafoInfoFirstPlacing">Alexandre Magno Abrão, 
-                                mais conhecido pelo seu nome artístico Chorão, 
-                                foi um cantor, compositor, skatista, cineasta, 
-                                roteirista e empresário brasileiro.
+                            <p className="boxInfo-paragrafoInfoFirstPlacing">
+                                Alexander the Great Abram,
+                                better known by its stage name Weeping,
+                                was a singer, songwriter, skateboarder, filmmaker,
+                                Brazilian writer and businessman. He was the vocalist.    
                             </p>
                             <div className="boxInfo-boxLinkBio">
                                 <a href="#" className="boxLinkBio-Txt">Read Full Bio</a>
-                                <img className="boxLinkBio-imgArow" src={IconArow}></img>
+                                <img className="boxLinkBio-imgArow arow" src={IconArow}></img>
                             </div>
                         </div>
                     </section>
-                    <section className="containerHome-"></section>
+                    <section className="containerHome-">
+                        <div className="">
+                            <div></div>
+                            <figure>
+                                <img></img>
+                            </figure>
+                        </div>
+                        <div>
+                            <div>
+                                <p></p>
+                                <h2></h2>
+                            </div>
+                            <p></p>
+                            <div>
+                                <a href="#"></a>
+                                <img className="arow" src={IconArow}></img>
+                            </div>
+                        </div>
+                    </section>
                     <section className="containerHome-"></section>
                 </body>
             </main>
